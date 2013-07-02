@@ -10,7 +10,7 @@
     </head>
     <body>
         <div data-role="page" id="daiban">
-            <div data-role="header" data-theme="b">
+            <div data-role="header" data-theme="b" data-position="fixed">
                 <h3>代办事项</h3>
             </div>
             <div data-role="content" data-theme="b">
@@ -68,13 +68,13 @@
                     </fieldset>
                 </form>
             </div>
-            <div data-role="footer" data-theme="b">
+            <div data-role="footer" data-theme="b" data-position="fixed">
                 <div data-role="navbar" data-iconpos="top">
                     <ul>
                         <li><a href="#daiban" data-icon="home">代办事项</a></li>
                         <li><a href="#yuyue" data-icon="grid">今日预约</a></li>
                         <li>
-                            <a href="guanyu.html" data-icon="info" data-rel="dialog" data-transition="pop">关于</a>
+                            <a href="#guanyu" data-icon="star">关于</a>
                         </li>
                     </ul>
                 </div>
@@ -82,7 +82,7 @@
         </div>
         
          <div data-role="page" id="yuyue">
-            <div data-role="header" data-theme="b">
+            <div data-role="header" data-theme="b" data-position="fixed">
                 <h3>今天预约</h3>
             </div>
             <div data-role="content">
@@ -120,16 +120,49 @@
                         <li>
                             <a href="yuyue1">预约9</a>
                         </li>
+
+                        <li data-role="list-divider">13:00 - 14:00</li>
+                        <li>
+                            <a href="yuyue1">预约10</a>
+                        </li>
+                        <li>
+                            <a href="yuyue1">预约11</a>
+                        </li>
+                        <li>
+                            <a href="yuyue1">预约12</a>
+                        </li>
                     </ul>
                 </div>
             </div>
-            <div data-role="footer" data-theme="b">
+            <div data-role="footer" data-theme="b" data-position="fixed">
                 <div data-role="navbar" data-iconpos="top">
                     <ul>
                         <li><a href="#daiban" data-icon="home">代办事项</a></li>
                         <li><a href="#yuyue" data-icon="grid">今日预约</a></li>
                         <li>
-                            <a href="guanyu.html" data-icon="info" data-rel="dialog" data-transition="pop">关于</a>
+                            <a href="#guanyu" data-icon="star">关于</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="page" id="guanyu">
+            <div data-role="header" data-theme="b" data-position="fixed">
+                <h1>关于</h1>
+            </div>
+            <div data-role="content" data-theme="b">
+                <p>
+                    本软件由智美科技制作
+                </p>
+            </div>
+            <div data-role="footer" data-theme="b" data-position="fixed">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li><a href="#daiban" data-icon="home">代办事项</a></li>
+                        <li><a href="#yuyue" data-icon="grid">今日预约</a></li>
+                        <li>
+                            <a href="#guanyu" data-icon="star">关于</a>
                         </li>
                     </ul>
                 </div>
